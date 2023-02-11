@@ -8,6 +8,12 @@ $xlarge: 1800px;
 $font-header: 'Oldenburg', cursive;
 $font-stack: 'Actor', sans-serif;
 
+//mixins & placeholders
+@mixin breakpoint($size) {
+    @media (min-width: $size) {
+      @content;
+    }
+  }
 
 @import "reset";
 @import "typography";

@@ -1,11 +1,16 @@
+import HeaderLower from "./components/HeaderLower";
 import HeaderUpper from "./components/HeaderUpper";
 
 
 function App() {
   return (
-    <div className="App">
+    <>
         <HeaderUpper />
-    </div>
+        <HeaderLower />
+        <main>
+          
+        </main>
+    </>
   );
 }
 

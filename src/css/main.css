@@ -20,10 +20,114 @@ body {
   font: 1.4rem/1.2 "Actor", sans-serif;
 }
 
+h1 {
+  font: 3rem "Oldenburg", cursive;
+  color: whitesmoke;
+  text-align: center;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+h3 {
+  font-size: 1.4;
+}
+
+p {
+  margin: 1rem;
+}
+
+button {
+  font: 1rem "Actor", sans-serif;
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 900px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  a {
+    font-size: 1.6rem;
+  }
+  button {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1800px) {
+  h1 {
+    font-size: 7rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2.4rem;
+  }
+  a {
+    font-size: 2.4rem;
+  }
+  button {
+    font-size: 2.4rem;
+  }
+}
 header {
   background-color: #3C5233;
 }
 
 .social {
-  margin: 3rem 3rem;
+  margin: 2rem 2rem;
+  font-size: 3rem;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerLower {
+  background-color: #6D213C;
 }/*# sourceMappingURL=main.css.map */
