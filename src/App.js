@@ -5,6 +5,8 @@ import HeaderLower from "./components/HeaderLower";
 import HeaderUpper from "./components/HeaderUpper";
 import NavLinks from "./components/NavLinks";
 import Homepage from "./pages/Homepage";
+import About from "./pages/About";
+import Contact from "./pages/Contact"
 
 
 function App() {
@@ -16,8 +18,8 @@ function App() {
           <NavLinks />
           <Routes>
             <Route path="/" element={<Homepage />}/>
-            <Route />
-            <Route />
+            <Route path="/about" element={<About />}/>
+            <Route path="/contact" element={<Contact />}/>
           </Routes>
         </main>
         <Footer />

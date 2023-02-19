@@ -246,4 +246,39 @@ footer .connect {
   footer .connect {
     flex-direction: row;
   }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5rem;
+}
+.container p {
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+.container h2 {
+  color: whitesmoke;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
 }/*# sourceMappingURL=main.css.map */
