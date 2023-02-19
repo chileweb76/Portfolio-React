@@ -31,7 +31,6 @@ h1 {
 h2 {
   font-size: 2rem;
   margin: 1rem;
-  color: whitesmoke;
   text-align: center;
 }
 
@@ -158,11 +157,14 @@ button:hover {
 
 .catContainer {
   display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .catFact {
   background-color: whitesmoke;
-  margin: 2rem;
+  margin: 2rem 6rem;
+  box-shadow: 10px 5px 5px black;
 }
 .catFact h3 {
   padding: 1rem;
@@ -173,13 +175,14 @@ button:hover {
 
 .cat {
   margin: 2rem;
+  width: 45%;
 }
 
 .message {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 5rem 2rem 5rem;
+  margin: 0 20rem 2rem 20rem;
   background-color: whitesmoke;
   box-shadow: 10px 5px 5px black;
 }
@@ -187,4 +190,60 @@ button:hover {
   padding: 0;
   margin: 1rem;
   text-decoration: underline;
+}
+
+.headerH2 {
+  color: whitesmoke;
+}
+
+article {
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin: 2rem 6rem;
+  box-shadow: 10px 5px 5px black;
+}
+article .side {
+  padding: 0 2rem 2rem;
+}
+article .screenshot {
+  width: 100%;
+}
+article .hrefs {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  article {
+    flex-direction: row;
+  }
+}
+a {
+  margin: 2rem;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: blue;
+}
+
+footer {
+  background-color: #3C5233;
+  padding: 2rem;
+}
+footer p {
+  margin-top: 2rem;
+}
+footer .connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (min-width: 700px) {
+  footer .connect {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=main.css.map */

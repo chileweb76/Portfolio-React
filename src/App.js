@@ -1,5 +1,6 @@
 
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import HeaderLower from "./components/HeaderLower";
 import HeaderUpper from "./components/HeaderUpper";
 import NavLinks from "./components/NavLinks";
@@ -19,6 +20,7 @@ function App() {
             <Route />
           </Routes>
         </main>
+        <Footer />
     </>
   );
 }

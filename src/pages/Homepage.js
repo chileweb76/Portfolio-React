@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import ChereKaye from '../components/ChereKaye';
+import CurrentWeather from '../components/CurrentWeather';
+import Monsters from '../components/Monsters';
 import pagebreak from '../img/pagebreak.png';
 
 const Homepage = () => {
@@ -39,11 +41,14 @@ const Homepage = () => {
                 </div>
             </div>
             <img className="pagebreak" src={pagebreak} alt="page break" />
-            <h2>Portfolio</h2>
+            <h2 className='headerH2'>Portfolio</h2>
             <div className='message'>
                 <p>This landing page is built in React with bootstrap and compiled with Sass</p>
                 <a href='https://github.com/chileweb76/Portfolio-React'>Github Repository</a>
             </div>
+            <ChereKaye />
+            <CurrentWeather />
+            <Monsters />
         </>
     )
 }
