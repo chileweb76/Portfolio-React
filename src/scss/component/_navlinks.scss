@@ -1,10 +1,11 @@
 nav {
     display: flex;
     justify-content: center;
+    
 }
 
 button {
-    margin: 2rem;
+    margin: .5rem;
     padding: 1rem;
     cursor: pointer;
     box-shadow: 10px 5px 5px black;
@@ -14,3 +15,4 @@ button {
         background-color: wheat;
     }
 }
+

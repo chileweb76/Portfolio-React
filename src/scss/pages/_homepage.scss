@@ -5,13 +5,20 @@
 
 .catContainer {
     display: flex;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
+@include breakpoint($small) {
+    .catContainer {
+        flex-direction: row;
+    }
+}
+
 .catFact {
     background-color: whitesmoke;
-    margin: 2rem 6rem;
+    margin: 2rem;
     box-shadow: 10px 5px 5px black;
 
     h3 {
@@ -24,15 +31,14 @@
 }
 
 .cat {
-    margin: 2rem;
-    width: 45%;
+    margin: auto;
 }
 
 .message {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20rem 2rem 20rem;
+    margin: 0 6rem 2rem 6rem;
     background-color: whitesmoke;
     box-shadow: 10px 5px 5px black;
 
