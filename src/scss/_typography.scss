@@ -1,0 +1,122 @@
+html {
+    font-size: 62.5%;
+    background-color: #6D213C;
+}
+
+body {
+    font: 1.4rem/1.2 $font-stack;
+}
+
+h1 {
+    font: 3rem $font-header;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+h3 {
+    font-size: 1.4;
+}
+  
+p {
+    margin: 1rem;
+}
+  
+button {
+    font: 1rem $font-stack;
+}
+  
+@include breakpoint($small) {
+    h1 {
+      font-size: 4rem;
+    }
+  
+    h2 {
+      font-size: 2.5rem;
+    }
+  
+  }
+  
+@include breakpoint($medium) {
+    h1 {
+      font-size: 5rem;
+    }
+  
+    h2 {
+      font-size: 3rem;
+    }
+    
+    h3 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1.6rem;
+    }
+  
+    a {
+      font-size: 1.6rem;
+    }
+  
+    button {
+      font-size: 1.6rem;
+    }
+  }
+  
+@include breakpoint($large) {
+    h1 {
+      font-size: 6rem;
+    }
+  
+    h2 {
+      font-size: 3.5rem;
+    }
+  
+    h3 {
+      font-size: 2.4rem;
+    }
+  
+    p {
+      font-size: 2rem;
+    }
+  
+    a {
+      font-size: 2rem;
+    }
+  
+    button {
+      font-size: 2rem;
+    }
+  }
+  
+@include breakpoint($xlarge) {
+    h1 {
+      font-size: 7rem;
+    }
+  
+    h2 {
+      font-size: 4rem;
+    }
+  
+    h3 {
+      font-size: 3rem;
+    }
+  
+    p {
+      font-size: 2.4rem;
+    }
+    
+    a {
+      font-size: 2.4rem;
+    }
+  
+    button {
+      font-size: 2.4rem;
+    }
+}

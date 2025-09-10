@@ -1,0 +1,21 @@
+footer {
+    background-color: #3C5233;
+    padding: 2rem;
+
+    p {
+        margin-top: 2rem;
+    }
+
+    .connect {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}
+
+@include breakpoint($small){
+    footer .connect {
+        flex-direction: row;
+    }
+}
