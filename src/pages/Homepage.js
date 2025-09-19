@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Mymovement from '../components/Mymovement';
 import Bruce from '../components/Bruce';
 import ChereKaye from '../components/ChereKaye';
 import CurrentWeather from '../components/CurrentWeather';
@@ -47,6 +48,7 @@ const Homepage = () => {
                 <p>This landing page is built in React with bootstrap and compiled with Sass</p>
                 <a href='https://github.com/chileweb76/Portfolio-React'>Github Repository</a>
             </div>
+            <Mymovement />
             <Bruce />
             <ChereKaye />
             <CurrentWeather />
